@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Список задач</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/tasks.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Task Manager</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="projects.html">Проекты</a></li>
+                <li class="nav-item active"><a href="tasks.html">Список задач</a></li>
+                <li class="nav-item"><a href="about.html">О приложении</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>Список задач</h1>
+        
+        <button id="add-task-btn" class="add-task-btn">Добавить задачу</button>
+        
+        <dialog id="task-dialog" class="task-dialog">
+            <form id="task-form" class="task-form">
+                <h2>Добавить новую задачу</h2>
+                <label for="task-text">Текст задачи:</label>
+                <input type="text" id="task-text" required>
+                <div class="form-actions">
+                    <button type="submit">Добавить</button>
+                    <button type="button" id="cancel-btn">Отмена</button>
+                </div>
+            </form>
+        </dialog>
+
+        <div class="task-board">
+            <div class="task-column">
+                <h2>Задачи</h2>
+                <div id="todo-tasks" class="tasks-container"></div>
+            </div>
+            <div class="task-column">
+                <h2>В работе</h2>
+                <div id="in-progress-tasks" class="tasks-container"></div>
+            </div>
+            <div class="task-column">
+                <h2>Выполненные</h2>
+                <div id="done-tasks" class="tasks-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

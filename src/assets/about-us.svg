@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- People -->
+  <circle cx="150" cy="150" r="50" fill="#4fc3f7"/>
+  <circle cx="350" cy="150" r="50" fill="#4a6fa5"/>
+  <path d="M100,200 Q150,250 200,200" fill="none" stroke="#5d4037" stroke-width="3" stroke-linecap="round"/>
+  <path d="M300,200 Q350,250 400,200" fill="none" stroke="#5d4037" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Connection -->
+  <path d="M200,150 L300,150" fill="none" stroke="#166088" stroke-width="5" stroke-dasharray="10,5"/>
+  
+  <!-- Info icons -->
+  <circle cx="150" cy="120" r="10" fill="white"/>
+  <path d="M150,110 L150,100 M150,140 L150,130" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <circle cx="350" cy="120" r="10" fill="white"/>
+  <text x="350" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#166088">i</text>
+</svg>

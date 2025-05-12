@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Проекты</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/error.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<script defer src="bundle.js"></script></head>
+<body>
+    <header class="header">
+        <div class="logo">Task Manager</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item active"><a href="projects.html">Проекты</a></li>
+                <li class="nav-item"><a href="tasks.html">Список задач</a></li>
+                <li class="nav-item"><a href="about.html">О приложении</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content error-content">
+        <div class="error-container">
+            <h1>404</h1>
+            <h2>Страница не найдена</h2>
+            <p>К сожалению, запрашиваемая вами страница не существует или была перемещена.</p>
+            <img src="assets/404-error.svg" alt="Ошибка 404" class="error-image">
+            <a href="index.html" class="home-link">Вернуться на главную</a>
+        </div>
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

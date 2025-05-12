@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - О приложении</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<script defer src="bundle.js"></script></head>
+<body>
+    <header class="header">
+        <div class="logo">Task Manager</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="projects.html">Проекты</a></li>
+                <li class="nav-item"><a href="tasks.html">Список задач</a></li>
+                <li class="nav-item active"><a href="about.html">О приложении</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content about-content">
+        <h1>О приложении Task Manager</h1>
+        
+        <section class="about-section">
+            <div class="about-text">
+                <h2>Наша миссия</h2>
+                <p>Task Manager создан, чтобы помочь вам организовать ваши задачи и повысить продуктивность. Мы стремимся сделать управление задачами простым и интуитивно понятным.</p>
+                
+                <h2>Основные возможности</h2>
+                <ul class="features-list">
+                    <li>Добавление и удаление задач</li>
+                    <li>Отслеживание статуса выполнения (Задачи, В работе, Выполнено)</li>
+                    <li>Автоматическое сохранение задач между сеансами</li>
+                    <li>Адаптивный дизайн для всех устройств</li>
+                    <li>Простой и удобный интерфейс</li>
+                </ul>
+                
+                <h2>Технологии</h2>
+                <div class="technologies">
+                    <div class="tech-card">
+                        <img src="assets/html5.svg" alt="HTML5">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="assets/css3.svg" alt="CSS3">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="assets/javascript.svg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-card">
+                        <img src="assets/webpack.svg" alt="Webpack">
+                        <span>Webpack</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="assets/about-us.svg" alt="О приложении">
+            </div>
+        </section>
+        
+        <section class="team-section">
+            <h2>Наша команда</h2>
+            <div class="team-members">
+                <div class="member-card">
+                    <img src="assets/developer1.svg" alt="Разработчик" class="member-photo">
+                    <h3>Алексей Петров</h3>
+                    <p>Frontend разработчик</p>
+                </div>
+                <div class="member-card">
+                    <img src="assets/developer2.svg" alt="Разработчик" class="member-photo">
+                    <h3>Мария Иванова</h3>
+                    <p>UI/UX дизайнер</p>
+                </div>
+                <div class="member-card">
+                    <img src="assets/developer3.svg" alt="Разработчик" class="member-photo">
+                    <h3>Дмитрий Сидоров</h3>
+                    <p>Тестировщик</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
