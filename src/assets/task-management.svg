@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <rect x="50" y="100" width="120" height="180" rx="10" fill="#4fc3f7" opacity="0.8"/>
+  <rect x="190" y="70" width="120" height="180" rx="10" fill="#4a6fa5" opacity="0.8"/>
+  <rect x="330" y="130" width="120" height="180" rx="10" fill="#166088" opacity="0.8"/>
+  
+  <!-- Checkmarks -->
+  <path d="M80,140 L100,160 L140,120" fill="none" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220,110 L240,130 L280,90" fill="none" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360,170 L380,190 L420,150" fill="none" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Person -->
+  <circle cx="250" cy="320" r="40" fill="#ffb74d"/>
+  <path d="M250,360 L230,400 L270,400 Z" fill="#ffb74d"/>
+  <circle cx="235" cy="310" r="5" fill="#5d4037"/>
+  <circle cx="265" cy="310" r="5" fill="#5d4037"/>
+  <path d="M240,335 L260,335" fill="none" stroke="#5d4037" stroke-width="3" stroke-linecap="round"/>
+</svg>
